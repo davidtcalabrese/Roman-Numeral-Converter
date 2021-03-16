@@ -30,9 +30,6 @@ function arabicToRoman(number) {
   else {
     for (let key in romanNumList) {
       a = Math.floor(number / romanNumList[key]);
-      console.log(`a: ${a}`);
-      console.log(`number: ${number}`);
-      console.log(`Roman numeral: ${roman}`);
       if (a >= 0) {
         for (let i = 0; i < a; i++) {
           roman += key;
