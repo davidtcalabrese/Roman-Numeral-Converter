@@ -2,5 +2,10 @@
     Author: David Calabrese
     Date: 01/17/2021
 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 /* temp for verifying connection */
 body { background-color: pink; }
