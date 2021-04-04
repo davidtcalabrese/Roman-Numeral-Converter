@@ -26,7 +26,7 @@ function arabicToRoman(number) {
     I: 1,
   };
   let a;
-  if (number > 3999) return "Enter a number between 1 and 3999";
+  if (number > 3999) return "Please nter a number between 1 and 3999";
   else {
     for (let key in romanNumList) {
       a = Math.floor(number / romanNumList[key]);
@@ -72,5 +72,3 @@ function romanToArabic(romanNumber) {
   }
   return num;
 }
-
-console.log(romanToArabic('DCLXVI'));
